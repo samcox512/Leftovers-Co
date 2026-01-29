@@ -1,18 +1,73 @@
-body{
-     background-color: white;
+html {
+    margin:0;
+    padding:0;
+    height:100vh;
 }
-h1{
+
+body {
+    background-color: #08090A;
+    margin:0;
+    padding:0;
+    height:100%
+}
+
+h1 {
     Color: Black;
 }
 
-#box1{ 
-    font-size:75px;
-    background-color: darkolivegreen;
-    width:20000px;
-    height: 500px;
-    padding-right: 2000px
+#header{
+    font-size:3vw;
+    font-family:DM Serif Display;
+    background-color: #5D707F;
+    color: #FFFFFF;
+    display:flex;
+    flex-grow:1;
+    padding:25px;
+    margin:0;
 }
 
-#box2{
-     background-image: 
+#columns {
+    display:grid;
+    grid-template-columns: auto auto auto auto auto;
+    grid-template-rows: 1;
+    width:100%;
+    height:86%;
+}
+
+.member-column {
+    display:flex;
+    flex-grow:1;
+    height:100%;
+    overflow:hidden;
+    position: relative; /* important */
+    width: 20vw;
+    cursor:pointer;
+    color:white;
+    font-size:3vw;
+    font-family:DM Serif Display;
+}
+
+.bg {
+    position:absolute;
+    z-index: -5;
+}
+
+#sam {
+    background-color: rgba(0, 0, 0, 0.75);
+}
+
+#harrison1 {
+    background-color: rgba(0, 0, 0, 0.75);
+}
+
+#harrison2 {
+    background-color: rgba(0, 0, 0, 0.75);
+}
+
+#jack {
+    background-color: rgba(0, 0, 0, 0.75);
+}
+
+#cassidy {
+    background-color: rgba(0, 0, 0, 0.75);
 }
